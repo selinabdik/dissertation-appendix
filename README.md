@@ -52,7 +52,3 @@ python scripts/stats/inferential_stats.py
 - Mistral-7B-Instruct-v0.3
 - Llama-3.1-8B-Instruct
 - Qwen2.5-7B-Instruct
-
-## Note on Data
-Generated outputs are included for reproducibility. 
-Raw model weights are not included — download from HuggingFace.
