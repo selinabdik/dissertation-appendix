@@ -52,3 +52,15 @@ python scripts/stats/inferential_stats.py
 - Mistral-7B-Instruct-v0.3
 - Llama-3.1-8B-Instruct
 - Qwen2.5-7B-Instruct
+
+## Lexicon
+
+This project uses the **NRC Emotion Intensity Lexicon (NRC-EIL) v1**, created by 
+Dr. Saif M. Mohammad at the National Research Council Canada (NRC).
+
+The lexicon is **not included in this repository** due to its licensing terms 
+(non-commercial use only, no redistribution).
+
+To reproduce the lexical analysis:
+1. Download the lexicon from: https://saifmohammad.com/WebPages/AffectIntensity.htm
+2. Place the file at: `data/raw/NRC-Emotion-Intensity-Lexicon-v1.txt`
