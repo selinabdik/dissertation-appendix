@@ -20,7 +20,7 @@ def mannwhitney(df, label, feature):
     sig = '***' if p < 0.001 else '**' if p < 0.01 else '*' if p < 0.05 else 'ns'
     return p, sig, d
 
-BASE = "/Users/selinabdik/Desktop/dissertation_outputs"
+BASE = "../data"
 MODELS = ['mistral', 'llama', 'qwen']
 LABELS = ['sycophancy', 'anthropomorphisation', 'user_retention']
 CONDITIONS = ['neutral', 'engagement', 'persuasion', 'trustworthiness']

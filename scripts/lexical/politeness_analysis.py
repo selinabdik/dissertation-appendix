@@ -53,7 +53,7 @@ def process_file(input_path, output_path):
         print("No rows saved — all failed")
 
 if __name__ == "__main__":
-    base = "/Users/selinabdik/Desktop/dissertation_outputs"
+    base = "../data"
     process_file(f"{base}/mistral_final.json", f"{base}/mistral_politeness.csv")
     process_file(f"{base}/llama_final.json",   f"{base}/llama_politeness.csv")
     process_file(f"{base}/qwen_final.json",    f"{base}/qwen_politeness.csv")

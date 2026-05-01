@@ -7,7 +7,7 @@ from statsmodels.stats.contingency_tables import mcnemar
 from statsmodels.stats.multitest import multipletests
 from scipy import stats
 
-BASE = '/Users/selinabdik/Desktop/dissertation_outputs'
+BASE = '../data'
 MODELS = ['mistral', 'llama', 'qwen']
 LABELS = ['sycophancy', 'anthropomorphisation', 'user_retention']
 CONDITIONS = ['neutral', 'engagement', 'persuasion', 'trustworthiness']

@@ -4,7 +4,7 @@ import pandas as pd
 from scipy.stats import chi2_contingency
 from sklearn.metrics import cohen_kappa_score
 
-BASE = '/Users/selinabdik/Desktop/dissertation_outputs'
+BASE = '../data'
 MODELS = ['mistral', 'llama', 'qwen']
 LABELS = ['sycophancy', 'anthropomorphisation', 'user_retention']
 CONDITIONS = ['neutral', 'engagement', 'persuasion', 'trustworthiness']

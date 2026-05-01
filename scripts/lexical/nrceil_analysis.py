@@ -7,7 +7,7 @@ from tqdm import tqdm
 nlp = spacy.load("en_core_web_sm")
 
 # Load NRC-EIL lexicon
-lexicon_path = "/Users/selinabdik/Desktop/dissertation_outputs/NRC-Emotion-Intensity-Lexicon-v1.txt"
+lexicon_path = "../data/raw/NRC-Emotion-Intensity-Lexicon-v1.txt"
 eil = pd.read_csv(lexicon_path, sep='\t', names=['word', 'emotion', 'score'])
 
 # Create lookup dictionaries per emotion
@@ -55,7 +55,7 @@ def process_file(input_path, output_path):
     print(f"Saved {len(rows)} rows to {output_path}")
 
 if __name__ == "__main__":
-    base = "/Users/selinabdik/Desktop/dissertation_outputs"
+    base = "../data"
     process_file(f"{base}/mistral_final.json", f"{base}/mistral_nrceil.csv")
     process_file(f"{base}/llama_final.json",   f"{base}/llama_nrceil.csv")
     process_file(f"{base}/qwen_final.json",    f"{base}/qwen_nrceil.csv")
