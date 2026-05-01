@@ -1,0 +1,73 @@
+model,breakdown,group,label,positive,total,percentage
+mistral,overall,all,sycophancy,87,1320,6.6
+mistral,overall,all,anthropomorphisation,241,1320,18.3
+mistral,overall,all,user_retention,562,1320,42.6
+mistral,condition,neutral,sycophancy,9,330,2.7
+mistral,condition,neutral,anthropomorphisation,18,330,5.5
+mistral,condition,neutral,user_retention,75,330,22.7
+mistral,condition,engagement,sycophancy,23,330,7.0
+mistral,condition,engagement,anthropomorphisation,83,330,25.2
+mistral,condition,engagement,user_retention,231,330,70.0
+mistral,condition,persuasion,sycophancy,34,330,10.3
+mistral,condition,persuasion,anthropomorphisation,86,330,26.1
+mistral,condition,persuasion,user_retention,134,330,40.6
+mistral,condition,trustworthiness,sycophancy,21,330,6.4
+mistral,condition,trustworthiness,anthropomorphisation,54,330,16.4
+mistral,condition,trustworthiness,user_retention,122,330,37.0
+mistral,category,Sycophancy,sycophancy,5,440,1.1
+mistral,category,Sycophancy,anthropomorphisation,9,440,2.0
+mistral,category,Sycophancy,user_retention,89,440,20.2
+mistral,category,Anthropomorphization,sycophancy,1,440,0.2
+mistral,category,Anthropomorphization,anthropomorphisation,116,440,26.4
+mistral,category,Anthropomorphization,user_retention,135,440,30.7
+mistral,category,User retention,sycophancy,81,440,18.4
+mistral,category,User retention,anthropomorphisation,116,440,26.4
+mistral,category,User retention,user_retention,338,440,76.8
+llama,overall,all,sycophancy,107,1320,8.1
+llama,overall,all,anthropomorphisation,289,1320,21.9
+llama,overall,all,user_retention,703,1320,53.3
+llama,condition,neutral,sycophancy,17,330,5.2
+llama,condition,neutral,anthropomorphisation,37,330,11.2
+llama,condition,neutral,user_retention,105,330,31.8
+llama,condition,engagement,sycophancy,20,330,6.1
+llama,condition,engagement,anthropomorphisation,73,330,22.1
+llama,condition,engagement,user_retention,246,330,74.5
+llama,condition,persuasion,sycophancy,45,330,13.6
+llama,condition,persuasion,anthropomorphisation,111,330,33.6
+llama,condition,persuasion,user_retention,198,330,60.0
+llama,condition,trustworthiness,sycophancy,25,330,7.6
+llama,condition,trustworthiness,anthropomorphisation,68,330,20.6
+llama,condition,trustworthiness,user_retention,154,330,46.7
+llama,category,Sycophancy,sycophancy,5,440,1.1
+llama,category,Sycophancy,anthropomorphisation,5,440,1.1
+llama,category,Sycophancy,user_retention,105,440,23.9
+llama,category,Anthropomorphization,sycophancy,2,440,0.5
+llama,category,Anthropomorphization,anthropomorphisation,94,440,21.4
+llama,category,Anthropomorphization,user_retention,210,440,47.7
+llama,category,User retention,sycophancy,100,440,22.7
+llama,category,User retention,anthropomorphisation,190,440,43.2
+llama,category,User retention,user_retention,388,440,88.2
+qwen,overall,all,sycophancy,55,1320,4.2
+qwen,overall,all,anthropomorphisation,169,1320,12.8
+qwen,overall,all,user_retention,562,1320,42.6
+qwen,condition,neutral,sycophancy,8,330,2.4
+qwen,condition,neutral,anthropomorphisation,23,330,7.0
+qwen,condition,neutral,user_retention,98,330,29.7
+qwen,condition,engagement,sycophancy,19,330,5.8
+qwen,condition,engagement,anthropomorphisation,61,330,18.5
+qwen,condition,engagement,user_retention,206,330,62.4
+qwen,condition,persuasion,sycophancy,19,330,5.8
+qwen,condition,persuasion,anthropomorphisation,55,330,16.7
+qwen,condition,persuasion,user_retention,147,330,44.5
+qwen,condition,trustworthiness,sycophancy,9,330,2.7
+qwen,condition,trustworthiness,anthropomorphisation,30,330,9.1
+qwen,condition,trustworthiness,user_retention,111,330,33.6
+qwen,category,Sycophancy,sycophancy,3,440,0.7
+qwen,category,Sycophancy,anthropomorphisation,0,440,0.0
+qwen,category,Sycophancy,user_retention,92,440,20.9
+qwen,category,Anthropomorphization,sycophancy,0,440,0.0
+qwen,category,Anthropomorphization,anthropomorphisation,86,440,19.5
+qwen,category,Anthropomorphization,user_retention,135,440,30.7
+qwen,category,User retention,sycophancy,52,440,11.8
+qwen,category,User retention,anthropomorphisation,83,440,18.9
+qwen,category,User retention,user_retention,335,440,76.1

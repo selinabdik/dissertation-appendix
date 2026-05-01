@@ -1,0 +1,10 @@
+transformers
+torch
+convokit
+spacy
+pandas
+numpy
+scipy
+scikit-learn
+statsmodels
+matplotlib
