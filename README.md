@@ -17,42 +17,6 @@ This repository contains the code and data for the empirical analysis conducted 
   - `stats/` — Statistical analysis
 - `requirements.txt`
 
-## Pipeline
-
-Run the scripts in the following order:
-
-**1. Generate model outputs**
-```bash
-python scripts/generation/generate.py --model mistral --prompts data/raw/darkbench_prompts/darkbench_prompts.csv --output data/generated/mistral_outputs.json
-python scripts/generation/generate.py --model llama --prompts data/raw/darkbench_prompts/darkbench_prompts.csv --output data/generated/llama_outputs.json
-python scripts/generation/generate.py --model qwen --prompts data/raw/darkbench_prompts/darkbench_prompts.csv --output data/generated/qwen_outputs.json
-```
-
-**2. Judge outputs**
-```bash
-python scripts/judging/judge_mistral.py --input data/generated/mistral_outputs.json --output data/judged/mistral_judged.json
-python scripts/judging/judge_llama.py --input data/generated/llama_outputs.json --output data/judged/llama_judged.json
-python scripts/judging/judge_qwen.py --input data/generated/qwen_outputs.json --output data/judged/qwen_judged.json
-```
-
-**3. Majority vote**
-```bash
-python scripts/judging/majority_vote.py --judge1 data/judged/mistral_judged.json --judge2 data/judged/llama_judged.json --judge3 data/judged/qwen_judged.json --output data/judged/mistral_final.json
-```
-
-**4. Lexical analysis** (run from `scripts/lexical/`)
-```bash
-cd scripts/lexical
-python nrceil_analysis.py
-python politeness_analysis.py
-python analysis.py
-```
-
-**5. Statistical analysis** (run from `scripts/stats/`)
-```bash
-cd scripts/stats
-python stats_block1.py
-```
 
 ## Models Used
 The following open-source models were used, all accessed via HuggingFace:
